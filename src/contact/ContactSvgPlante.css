@@ -1,0 +1,25 @@
+.contactSvgPlante{
+    height: 500px;
+    position: absolute;
+    right: -250vw;
+    bottom: 10vh;
+    transition: 1.5s all;
+    transform: translateY(40vh);
+    opacity: 0;
+    overflow: hidden;
+}
+
+.contactSvgDetails{
+    position: absolute;
+    width: 550px;
+    right: -240vw;
+    top: 13vh;
+    transition: 1.5s all;
+    color: #FFA41A;
+    font-size: 1.2rem;
+    font-weight: 400;
+    white-space: pre-line;
+    transform: translateY(-40vh);
+    opacity: 0;
+    text-align: center;
+}

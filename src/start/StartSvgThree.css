@@ -1,0 +1,7 @@
+.startSvgThree{
+    height: 200px;
+    position: absolute;
+    right: -235vw;
+    top: -30vh;
+    transition: 1s all;
+}

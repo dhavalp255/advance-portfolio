@@ -1,0 +1,22 @@
+.homeSvgCharacter{
+   
+
+    height: 150px;
+    position: absolute;
+    left: 40%;
+    top: 20%;
+}
+
+#Group_40{
+    
+    animation: group 1s infinite ease alternate;
+}
+
+@keyframes group {
+form{
+    transform: translateY(5px);
+}
+to{
+transform: translateY(-5px);
+}
+}

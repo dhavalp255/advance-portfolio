@@ -1,0 +1,9 @@
+.aboutSvgSeo{
+    height: 340px;
+    position: absolute;
+    right: -106vw;
+    bottom: -10vh;
+    z-index: 1;
+    opacity: 0;
+    transition: 1s all;
+}

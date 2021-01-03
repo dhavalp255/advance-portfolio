@@ -1,0 +1,19 @@
+.home {
+  background: #323756;
+  width: 490vw;
+  height: 100vh;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  height: 8px;
+
+  background-color: #ee3d11;
+}
+.home__svgBase {
+  position: absolute;
+  bottom: 0vh;
+
+  display: flex;
+  width: 490vw;
+}

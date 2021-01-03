@@ -1,0 +1,7 @@
+.startSvgTwo{
+    height: 180px;
+    position: absolute;
+    right: -215vw;
+    top: -35vh;
+    transition: 1s all;
+}

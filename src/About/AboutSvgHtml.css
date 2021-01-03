@@ -1,0 +1,10 @@
+.aboutSvgHtml {
+  height: 280px;
+  position: absolute;
+  right: -75vw;
+  bottom: -10vh;
+  z-index: 1;
+  opacity: 0;
+  transition: 1s all;
+}
+

@@ -1,0 +1,7 @@
+.startSvgOne{
+    height: 280px;
+    position: absolute;
+    right: -205vw;
+    top: -30vh;
+    transition: 1s all;
+}

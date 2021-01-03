@@ -1,0 +1,9 @@
+.aboutSvgReact{
+    height: 380px;
+    position: absolute;
+    right: -93vw;
+    bottom: -10vh;
+    z-index: 2;
+    opacity: 0;
+    transition: 1s all;
+}

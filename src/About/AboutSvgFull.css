@@ -1,0 +1,20 @@
+.aboutSvgFull{
+    height: 140px;
+    position: absolute;
+    right: -50vw;
+    top: 50%;
+    animation: full 1.8s infinite linear alternate;
+}
+
+
+@keyframes full {
+    0% {
+      transform: translate(-10px, 5px);
+    }
+    50% {
+      transform: translate(-5px, 10px);
+    }
+    100%{
+      transform: translate(0px, 0px);
+    }
+  }

@@ -1,0 +1,48 @@
+.contact {
+  position: absolute;
+  right: -300vw;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: 1s all;
+  transform: translateY(-100vh);
+  overflow: hidden;
+}
+
+input,
+.contact > button {
+  padding: 10px;
+  margin: 20px;
+  outline: none;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid #ffa41a;
+  border-right: 2px solid #ffa41a;
+  border-radius: 50%;
+  text-align: center;
+  width: 350px;
+  height: 70px;
+  color: #ffa41a;
+  font-size: 1.1rem;
+  text-decoration: none;
+}
+.message {
+  height: 100px;
+}
+.contact > button {
+  font-size: 1.2rem;
+}
+
+.contact > button:hover {
+  cursor: pointer;
+}
+.contact > button:disabled {
+   opacity: .5;
+   }
+
+::placeholder {
+  color: rgba(255, 164, 26, 0.7);
+  font-size: 0.9rem;
+}
